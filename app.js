@@ -14,13 +14,25 @@ router.get('/', function(req,res){
   res.sendFile(path + 'index.html');
 });
 
-router.get('/sharks', function(req,res){
-  res.sendFile(path + 'sharks.html');
+router.get('/about', function(req,res){
+  res.sendFile(path + 'about.html');
+});
+
+router.get('/cart', function(req,res){
+  res.sendFile(path + 'cart.html');
+});
+
+router.get('/gallery', function(req,res){
+  res.sendFile(path + 'gallery.html');
+});
+
+router.get('/wishlist', function(req,res){
+  res.sendFile(path + 'wishlist.html');
 });
 
 app.use(express.static(path));
 app.use('/', router);
 
 app.listen(port, function () {
-  console.log('Shark app listening on port 8000!')
+  console.log('app listening on port 8000!')
 })

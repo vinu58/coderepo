@@ -1,8 +1,8 @@
 {
-  "name": "sharks",
+  "name": "portal",
   "version": "1.0.0",
   "description": "nodejs image demo",
-  "author": "Shark <shark@example.com>",
+  "author": "portal <portal@example.com>",
   "license": "MIT",
   "main": "app.js",
   "keywords": [
